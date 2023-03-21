@@ -1,5 +1,17 @@
+body, 
+html {
+    height: 100%;
+}
+
 body {
-    background-image: url(brain.jpg) no-repeat center center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    background-image: url(images/brain.jpg) no-repeat center center;
+    height: 100%;
+    width: auto;
     background-size: cover;
+    margin:0;
 
 }
